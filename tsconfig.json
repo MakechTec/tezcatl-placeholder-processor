@@ -1,0 +1,8 @@
+{
+    "compilerOptions":{
+        "outDir": "./prebuild"
+    },
+    "files":[
+        "src/PlaceholderProcessor.ts",
+    ]
+}
