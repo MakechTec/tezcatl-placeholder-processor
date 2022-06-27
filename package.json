@@ -1,5 +1,25 @@
 {
   "dependencies": {
     "@makechtec/tezcatl-cli": "^1.0.11"
-  }
+  },
+  "types": "./index.d.ts",
+  "name": "@makechtec/tezcatl-placeholder-processor",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "compile": "tsc && terser prebuild/PlaceholderProcessor.js --output index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MakechTec/tezcatl-placeholder-processor.git"
+  },
+  "author": "makechtec",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/MakechTec/tezcatl-placeholder-processor/issues"
+  },
+  "homepage": "https://github.com/MakechTec/tezcatl-placeholder-processor#readme",
+  "description": ""
 }
