@@ -1,15 +1,15 @@
 {
   "dependencies": {
-    "@makechtec/tezcatl-cli": "^1.0.11"
+    "@makechtec/pipe": "^1.0.7",
+    "@makechtec/tezcatl-cli": "^1.0.12"
   },
   "types": "./index.d.ts",
   "name": "@makechtec/tezcatl-placeholder-processor",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "main": "index.js",
-  "devDependencies": {},
   "scripts": {
     "compile": "tsc && terser prebuild/PlaceholderProcessor.js --output index.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node test/index.mjs name=Navbar type= but=Filled"
   },
   "repository": {
     "type": "git",
