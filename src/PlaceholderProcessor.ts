@@ -1,7 +1,8 @@
 import {Argument, CLI} from "@makechtec/tezcatl-cli";
 import {Pipe} from "@makechtec/pipe";
+import {CodeProcessor} from "@makechtec/tezcatl-constants";
 
-export class PlaceholderProcessor{
+export class PlaceholderProcessor implements CodeProcessor{
 
     parse(content: string) : string{
 
