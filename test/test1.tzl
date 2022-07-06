@@ -1,1 +1,1 @@
-${name|default} ${component|Two} ${type|Three} ${but|ok} ${ignored}
+${name|default} ${component|Two} ${type|Three} ${but|ok} ${ignored} ${some.uno}

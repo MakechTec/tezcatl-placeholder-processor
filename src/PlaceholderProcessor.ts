@@ -76,6 +76,6 @@ export class PlaceholderProcessor implements CodeProcessor{
     
 }
 
-export const GENERAL_SLOT_REGEXP = /\$\s*\{\s*([a-z|A-Z|\d]*)\s*?\}/g;
+export const GENERAL_SLOT_REGEXP = /\$\s*\{\s*([a-z|A-Z|\d|\.]*)\s*?\}/g;
 export const SLOT_DEFAULT_VALUE_REGEXP = /\|([a-z|A-Z|\d]*)/g;
 export const GENERAL_SLOT_WITH_DEFAULT_VALUE = /\$\s*\{\s*([a-z|A-Z|\d]*)\s*\|\s*([a-z|A-Z|\d]*)\s*?\}/g;
